@@ -5,9 +5,9 @@
 
 
 <template>
-
-  <div>哈哈</div>
-
+  <transition name="slideleft">
+  <div class="user">哈哈</div>
+  </transition>
 </template>
 
 

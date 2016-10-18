@@ -9,7 +9,8 @@
 
    
     <div class="user">
-        dasdsad
+    
+        dasdsad 
     </div>
  
 
@@ -51,6 +52,7 @@
         methods: {
             say:function(){
                 var self = this;
+                console.log(self.$route)
                  alert(self.$route.query.id)
             }
         }

@@ -3,11 +3,6 @@
     @import '../css/animate.css';
     @import '../sass/reset.scss';
     
-    .content{
-        width:100%;
-        overflow: hidden;
-    }
-   
 </style>
 
 
@@ -15,7 +10,9 @@
 
     <div class="content" >
         <mHeader></mHeader>
-        <router-view  transition="slideright" transition-mode="out-in" keep-alive class="view"></router-view>
+            <transition name="fade" mode="out-in">
+                    <router-view  ></router-view>
+            </transition>
         <mNav></mNav>
     </div>
     

@@ -31,17 +31,17 @@
   <nav class="nav" >
      <ul>
        <li>
-        <router-link to="/user">任务</router-link>
+        <router-link to="user">任务</router-link>
        </li>
        <li>
-        <router-link to="/temp">日历</router-link>
+        <router-link to="temp">日历</router-link>
        </li>
-      <!--  <li><a v-link="{ path: '/temp' }">日历</a></li>
+    <!--    <li><a v-link="{ path: '/temp' }">日历</a></li>
        <li><a v-link="{ path: '/user/account' }">文件</a></li>
        <li><a href='#user?id=13123'>话题</a></li>
        <li><a href='#user?id=2'>话题1</a></li>
-       <li ><a v-link="{ name: 'user', query: { id: 1} }">项目 </a></li>
-       <li>{{$route.query.id}}</li> -->
+       <li ><a v-link="{ name: 'user', query: { id: 1} }">项目 </a></li> -->
+       <!-- <li>{{$route.query.id}}</li> -->
      </ul>
   </nav>
 

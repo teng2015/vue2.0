@@ -9,7 +9,7 @@ var Bar = { template: '<div>bar</div>' }
 Vue.use(VueRouter);
 
 var router = new VueRouter({
-	mode: false,
+	  mode: false,
   	base: __dirname,
   	routes: [
 	  	{ path: '/', component: require('../components/index.vue') },
@@ -20,9 +20,9 @@ var router = new VueRouter({
 
 
 new Vue({
-  el: '#app'
+  el:'#app'
   ,router:router
-  ,template: '<router-view  transition="slideright" transition-mode="out-in" keep-alive></router-view>'
+ 
   ,render: (function (h) {  
 	  return h(App);  
   })
